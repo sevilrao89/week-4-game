@@ -1,0 +1,106 @@
+	html{
+		box-sizing:border-box;
+		margin: 0;
+		padding: 0;
+
+	}
+	
+	 *, *:before,*:after { box-sizing: inherit; margin: 0; padding: 0; 
+	}
+	
+	header,footer,h1,h2,h3,h4,div,p,aside,section,main,ol,ul,li{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-size: 100%;
+		border: 0;
+
+	}
+
+	header{
+		background: #ca722a;
+		display: inline-block;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		padding: 1em;
+
+	}
+
+	header h1{
+		color: #fff;
+		font-size: 24px;
+	}
+
+	
+
+	#instructions{
+		background: #fbe6cd;
+		display: inline-block;
+
+	}
+
+	#instructions p{
+		line-height: 2em;
+		font-weight: bold;
+
+	}
+
+	body{
+		background: #111;
+	}
+
+	main{
+		margin-left: 1em;
+
+	}
+
+	main ul li{
+		list-style: none;
+		display: inline;
+		height: 5em;
+
+	}
+
+	main section, main aside{
+		display: inline-block;
+		vertical-align: top;
+		background: #2ba296;
+		color: #fff;
+		margin-top: .5em;
+		height: 8em;
+		padding: 1em;
+		
+
+	}
+
+	section{
+		height: 8em;
+		width: 5em;
+		font-size: 24px;
+
+	}
+
+	aside{
+		margin-left: 1em;
+		font-size: 24px;
+	}
+
+	#totalscore{
+		background: #2ba296;
+		color: #fff;
+		padding: 1em;
+		margin-top: .5em;
+		display: inline-block;
+		font-size: 22px;
+	}
+
+	
+	#crystals{
+		margin-top: 1em;
+
+	}
+
+
+
+
